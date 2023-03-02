@@ -9,9 +9,18 @@ h5{
 }
 h6{
     background-color: #F8DCD1 ;
-    padding: 20px ;
+    padding: 40px ;
 }
 Body{
     background-color:#FAF7F3
     ;
+}
+h10{
+    text-align: center;
+}
+p{
+    line-height: 1.5;
+}
+h9{
+    text-align: left;
 }
