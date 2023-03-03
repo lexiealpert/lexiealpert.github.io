@@ -1,93 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="x-UA-compatible" content="ie=edge">
     <!--seo-->
-    <title> Title tag</title>
-    <meta name="description" content="description goes here.">
+    <title>landing page</title>
+    <meta name="taku" content="taku restraunt.">
     <!--fonts-->
-
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;1,100;1,200&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&display=swap" rel="stylesheet">
     <!--bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <!--css-->
     <link rel="stylesheet" href="css/landing.css">
 </head>
-
 <body>
     <div class="container">
-
-        <h1>Taku</h1>
-
-        <h5>
-
+        <header>
+            <h1>Taku</h1>
+        </header>
+        <main>
             <div class="row">
-                <div class="col">
-                    <p> <img src="images/handscooking.png" class="img-fluid">
-                    </p>
+                <div class="col-md-7">
+                    <img src="images/handscooking.png" class="img-fluid" alt="handscookingtortilla">
                 </div>
-                <div class="col">
-                    <p>
-                    <ul>
-                        <h6>
-                        <li>menu</li>
-                        <li>bar</li>
-                        <li>order online</li>
-                        <li>contact us</li>
-                    </h6>
-                    </ul>
-                    </p>
+                <div class="col-md-5">
+                    <div class="menu">
+                        <ul>
+                            <li>menu</li>
+                            <li>bar</li>
+                            <li>order online</li>
+                            <li>contact us</li>
+                        </ul>
+                    </div>
                 </div>
+            </div>
+            <section class="description">
                 <div class="row">
-                    <div class="col">
+                    <div class="col-lg-6">
                         <p>Taku was founded in the summer of 2022. We are a family/minority owned Taqueria & Mezcaleria
                             serving food deeply rooted in Sinaloan ritual. We serve corn and flour tortillas - all made
                             by hand. The corn tortillas are nixtamalized in house from corn sourced from small producers
                             in Oaxaca and Puebla. Our specialty flour tortillas are made in house and rolled by hand
                             daily. The meats and seafood are expertly butchered in house daily.</p>
+                        <p class="address">23 MAIN STREET<br>
+                            BALTIMORE, MD 21212<br>
+                            444-444-4444<br>
+                            INFO@INFO.COM<br>
                     </div>
-                    <div class="col">
-                        <p>
-                        <p> <img src="images/drink.png" class="img-fluid" </p>
+                    <div class="col-lg-3">
+                        <img src="images/drink.png" class="img-fluid">
                     </div>
-                    <div class="col">
-                        <p>
-                            <img src="images/tacos.png" class="img-fluid">
-                        </p>
+                    <div class="col-lg-3">
+                        <img src="images/tacos.png" class="img-fluid">
                     </div>
-                    <div class="row">
-                        <div class="col">
-                            <h9>
-                                <ul style="list-style-type:none"
-                            <li>23 MAIN STREET</li>
-                            <li>BALTIMORE, MD 21212</li>
-                            <li>444-444-4444</li>
-                            <li>INFO@INFO.COM</li>
-                        </ul>
-                        </h9>
-                        </div>
-
-
-
-                        <!--js-->
-                        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-                            integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
-                            crossorigin="anonymous"></script>
-                        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
-                            integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
-                            crossorigin="anonymous"></script>
-
-        </h5>
-
-        <h10>
-        <p> COPYRIGHT 2022</p>
-        <p>BALTIMORE, MD</p>
-        </h10>
-        
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p> COPYRIGHT 2022<br>
+                BALTIMORE, MD</p>
+        </footer>
+        <!--js-->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+            integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+            integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+            crossorigin="anonymous"></script>
 </body>
-
 </html>

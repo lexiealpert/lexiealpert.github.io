@@ -1,26 +1,30 @@
-h1{
-   font-family:Barlow Semi Condensed;
-}
-h1{
-    color:#664C4B
-}
-h5{
-    font-family:Orbitron sans-serif
-}
-h6{
-    background-color: #F8DCD1 ;
-    padding: 40px ;
-}
-Body{
-    background-color:#FAF7F3
-    ;
-}
-h10{
-    text-align: center;
-}
-p{
+body{
+    background-color:#FAF7F3;
+    font-family: 'Barlow Semi Condensed', sans-serif;
     line-height: 1.5;
 }
-h9{
-    text-align: left;
+
+h1{
+   font-family: 'Orbitron', sans-serif;
+    color:#664C4B;
+}
+
+.menu{
+    background-color: #F8DCD1 ;
+    padding: 40px;
+}
+footer{
+    text-align: center;
+}
+header{
+    margin:3em 0;
+}
+main{
+    margin: 3em 0;
+}
+section{
+    margin:3em 0;
+}
+.address{
+    line-height: 1;
 }
