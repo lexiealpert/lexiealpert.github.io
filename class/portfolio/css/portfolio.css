@@ -1,0 +1,93 @@
+body{
+    background-color:#faf9f8;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/*home only*/
+.home,
+.sub main{
+    translate: 0 25%;
+    height: 100vh;
+}
+
+.home{
+    background-image:url("../images/verticalbox.png");
+    background-size: 100vw 1000vh;
+}
+.vertical-nav a{
+    display: block;
+    line-height: 5;
+}
+.sub h1{
+    font-size:1em;
+}
+
+/* subpages*/
+
+.clips{
+    background-image:url("../images/half.jpg.pdf");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+.resume{
+    background-image: url("../images/brownsquare.png.pdf");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+.about{
+    background-image: url("../images/whitesqure.png.pdf");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+
+
+@media (max-width:775px) {
+    .vertical-nav a {
+        line-height: 3;
+    }
+
+.sub main {-
+    }
+}
+
+@media (max-width: 576px) {
+
+        .container-fluid{
+            margin: 0;
+            padding: 0;
+    }
+    .clips,
+    .resume,
+    .about,
+    .home {
+        background-image: none;
+    }
+    .sub main {-
+    }
+
+    /*home only */
+
+    .home{
+        translate:none;
+        text-align: center;
+    }
+    .vertical-nav {
+        background-color:#e0ddd6;
+        margin:0 0 2em 0;
+    }
+    .vertical-nav a {
+        display: inline;
+        padding: 0 5%;
+    }
+}
+
+
+
+
+h1{
+    font-family:'fraunces';
+    font-size: 90px;
+    text-align: center;
+}
+h2{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
