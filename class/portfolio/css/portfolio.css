@@ -10,7 +10,7 @@ body{
 }
 
 .home{
-    background-image:url("../images/verticalbox.png");
+    background-image:url("../images/vertical.jpg");
     background-size: 100vw 1000vh;
 }
 .vertical-nav a{
@@ -24,17 +24,17 @@ body{
 /* subpages*/
 
 .clips{
-    background-image:url("../images/half.jpg.pdf");
+    background-image:url("../images/half.jpg");
     background-repeat: no-repeat;
     background-size: 100vw 100vh;
 }
 .resume{
-    background-image: url("../images/brownsquare.png.pdf");
+    background-image: url("../images/brownsquare.jpg");
     background-repeat: no-repeat;
     background-size: 100vw 100vh;
 }
 .about{
-    background-image: url("../images/whitesqure.png.pdf");
+    background-image: url("../images/whitesquare.jpg");
     background-repeat: no-repeat;
     background-size: 100vw 100vh;
 }
