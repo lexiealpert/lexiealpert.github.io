@@ -19,6 +19,10 @@ body{
 }
 .sub h1{
     font-size:1em;
+    text-align: left;
+}
+.horizontal-nav{
+    margin: 1em 0 0 0;
 }
 
 /* subpages*/
@@ -45,8 +49,9 @@ body{
         line-height: 3;
     }
 
-.sub main {-
-    }
+.sub main {
+    translate:0 30%;
+}
 }
 
 @media (max-width: 576px) {
@@ -62,6 +67,7 @@ body{
         background-image: none;
     }
     .sub main {-
+        translate: 0 30%;
     }
 
     /*home only */
