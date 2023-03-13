@@ -21,6 +21,12 @@ body{
     font-size:1em;
     text-align: left;
 }
+.sub h2{
+    font-size:6em;
+    font-family:'fraunces';
+    padding-top: 0.3em;
+    
+}
 .horizontal-nav{
     margin: 1em 0 0 0;
 }
@@ -66,7 +72,7 @@ body{
     .home {
         background-image: none;
     }
-    .sub main {-
+    .sub main {
         translate: 0 30%;
     }
 
