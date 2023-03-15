@@ -1,70 +1,80 @@
-body{
-    background-color:#faf9f8;
+body {
+    background-color: #faf9f8;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 /*home only*/
 .home,
-.sub main{
-    translate: 0 25%;
+.sub main {
+    translate: 0 20%;
     height: 100vh;
+    font-family: fraunces;
+    line-height: 1.7;
 }
-
-.home{
-    background-image:url("../images/vertical.jpg");
-    background-size: 100vw 1000vh;
+.home {
+    background-image: url("../images/vertical.jpg");
 }
-.vertical-nav a{
+.vertical-nav {
+    text-align: center;
+}
+.vertical-nav a {
     display: block;
     line-height: 5;
+    color: black;
 }
-.sub h1{
-    font-size:1em;
+.sub h1 {
+    font-size: 1em;
     text-align: left;
 }
-.sub h2{
-    font-size:6em;
-    font-family:'fraunces';
+.sub h2 {
+    font-size: 6em;
+    font-family: 'fraunces';
     padding-top: 0.3em;
-    
 }
-.horizontal-nav{
+.horizontal-nav {
     margin: 1em 0 0 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
+.horizontal-nav a {
+    color: black;
+}
 /* subpages*/
-
-.clips{
-    background-image:url("../images/half.jpg");
+.clips {
+    background-image: url("../images/half.jpg");
     background-repeat: no-repeat;
     background-size: 100vw 100vh;
 }
-.resume{
+.resume {
     background-image: url("../images/brownsquare.jpg");
     background-repeat: no-repeat;
     background-size: 100vw 100vh;
 }
-.about{
+.about {
     background-image: url("../images/whitesquare.jpg");
     background-repeat: no-repeat;
     background-size: 100vw 100vh;
 }
-
-
+.media {
+    font-size: 1em;
+    word-spacing: 1em;
+}
+.media a {
+    color: black;
+}
 @media (max-width:775px) {
     .vertical-nav a {
         line-height: 3;
     }
-
-.sub main {
-    translate:0 30%;
+    .sub main {
+        translate: 0 30%;
+    }
 }
+.bi {
+    font-size: 3em;
 }
-
 @media (max-width: 576px) {
-
-        .container-fluid{
-            margin: 0;
-            padding: 0;
+    .container-fluid {
+        margin: 0;
+        padding: 0;
     }
     .clips,
     .resume,
@@ -75,31 +85,25 @@ body{
     .sub main {
         translate: 0 30%;
     }
-
     /*home only */
-
-    .home{
-        translate:none;
+    .home {
+        translate: none;
         text-align: center;
     }
     .vertical-nav {
-        background-color:#e0ddd6;
-        margin:0 0 2em 0;
+        background-color: #e0ddd6;
+        margin: 0 0 2em 0;
     }
     .vertical-nav a {
         display: inline;
         padding: 0 5%;
     }
 }
-
-
-
-
-h1{
-    font-family:'fraunces';
+h1 {
+    font-family: 'fraunces';
     font-size: 90px;
     text-align: center;
 }
-h2{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+h2 {
+    font-family: 'fraunces';
 }
