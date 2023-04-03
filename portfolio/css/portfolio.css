@@ -2,108 +2,161 @@ body {
     background-color: #faf9f8;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-/*home only*/
+
+
+/*page height and positioning*/
 .home,
 .sub main {
     translate: 0 20%;
-    height: 100vh;
-    font-family: fraunces;
+    font-family: 'Fraunces', serif;
     line-height: 1.7;
 }
+
+.home,
+.sub {
+    height: 100vh;
+}
+
+.home {
+    overflow-y: hidden;
+}
+
+.sub {
+    overflow-y: scroll;
+}
+
+/*home only*/
+
 .home {
     background-image: url("../images/vertical.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
 }
+
 .vertical-nav {
     text-align: center;
 }
+
 .vertical-nav a {
     display: block;
     line-height: 5;
     color: black;
 }
+
+h1 {
+    font-family: 'Fraunces', serif;
+    font-size: 90px;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Fraunces', serif;
+}
+
+/*subpages*/
 .sub h1 {
     font-size: 1em;
     text-align: left;
 }
+
 .sub h2 {
     font-size: 6em;
-    font-family: 'fraunces';
+    font-family: 'Fraunces', serif;
     padding-top: 0.3em;
 }
+
 .horizontal-nav {
-    margin: 1em 0 0 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 .horizontal-nav a {
     color: black;
 }
-/* subpages*/
+
+.horizontal-nav,
+.sub h1 {
+    margin: 2em 0 0 0;
+}
+
+/* each subpage*/
 .clips {
     background-image: url("../images/half.jpg");
     background-repeat: no-repeat;
     background-size: 100vw 100vh;
 }
+
 .resume {
     background-image: url("../images/brownsquare.jpg");
     background-repeat: no-repeat;
     background-size: 100vw 100vh;
 }
+
 .about {
     background-image: url("../images/whitesquare.jpg");
     background-repeat: no-repeat;
     background-size: 100vw 100vh;
 }
+
 .media {
     font-size: 1em;
     word-spacing: 1em;
 }
+
 .media a {
     color: black;
 }
+
+.bi {
+    font-size: 3em;
+}
+
 @media (max-width:775px) {
     .vertical-nav a {
         line-height: 3;
     }
+
     .sub main {
         translate: 0 30%;
     }
 }
-.bi {
-    font-size: 3em;
-}
+
 @media (max-width: 576px) {
     .container-fluid {
         margin: 0;
         padding: 0;
+        padding-left: ;
     }
+
+
     .clips,
     .resume,
     .about,
     .home {
         background-image: none;
     }
+
     .sub main {
-        translate: 0 30%;
+        translate: 0 5%;
     }
+
     /*home only */
     .home {
         translate: none;
         text-align: center;
+        overflow-y: scroll;
     }
+
     .vertical-nav {
         background-color: #e0ddd6;
         margin: 0 0 2em 0;
     }
+
     .vertical-nav a {
         display: inline;
         padding: 0 5%;
     }
 }
-h1 {
-    font-family: 'fraunces';
-    font-size: 90px;
-    text-align: center;
-}
-h2 {
-    font-family: 'fraunces';
+
+.sub h2 {
+    font-size: 4em;
 }

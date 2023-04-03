@@ -1,0 +1,41 @@
+
+.intro  {
+    padding-top: 110px;
+    color: #fafafa; 
+
+  }
+  .box {
+    background-color: #0f171a;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    margin: 0;
+}
+
+  .info{
+    padding-top: 40px;
+    background-color:#fafafa;
+    color:#0f171a;
+  }
+
+h4{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    line-height: 0;
+    color:#b43834;  
+}
+h5{
+    text-align: center;
+    line-height: 0;  
+}
+.map{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.vertical-line{
+    height: 1850px;
+    border-left: 4px solid #b43834;
+    position: absolute;
+    background-color: #fafafa;
+    margin: 0 200px;
+}
