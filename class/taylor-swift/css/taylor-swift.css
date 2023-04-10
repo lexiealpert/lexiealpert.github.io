@@ -1,41 +1,100 @@
-
-.intro  {
-    padding-top: 110px;
-    color: #fafafa; 
-
-  }
-  .box {
-    background-color: #0f171a;
-    padding-top: 70px;
-    padding-bottom: 70px;
-    margin: 0;
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    background-color: #fafafa;
 }
-
-  .info{
-    padding-top: 40px;
-    background-color:#fafafa;
-    color:#0f171a;
-  }
-
-h4{
+a {
+    color: #0e171a;
+    text-decoration: none;
+    border-bottom: 1px solid #b2322d;
+}
+/*links*/
+a:hover {
+    color: #b2322d;
+}
+.intro {
+    color: #fafafa;
+}
+a.cision-link {
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px solid white;
+}
+a.cision-link:hover {
+    color: #b2322d;
+}
+.box {
+    box-sizing: border-box;
+    background-color: #0e171a;
+    padding-top: 220px;
+    padding-bottom: 150px;
+}
+h1 {
+    font-size: 3em;
+}
+h2 {
+    font-size: 1.5em;
+}
+h3 {
+    font-size: 1.25em;
+    text-transform: uppercase;
+}
+h4 {
     text-align: center;
+    font-size: 1.25em;
     padding-top: 40px;
     padding-bottom: 40px;
     line-height: 0;
-    color:#b43834;  
+    color: #b2322d;
 }
-h5{
+h5 {
     text-align: center;
-    line-height: 0;  
+    line-height: 0;
 }
-.map{
+.info {
+    padding-top: 40px;
+    background-color: #fafafa;
+    color: #0e171a;
+}
+.map {
     padding-top: 40px;
     padding-bottom: 40px;
 }
-.vertical-line{
-    height: 1850px;
-    border-left: 4px solid #b43834;
-    position: absolute;
+.vertical-line {
+    border-left: 4px solid #b2322d;
     background-color: #fafafa;
-    margin: 0 200px;
+    padding-left: 1.5em;
+}
+b {
+    background-color: #b2322d;
+    letter-spacing: 1px;
+    color: #fafafa;
+    line-height: 1.2em;
+    font-size: .95em;
+}
+footer {
+    font-size: 12px;
+    text-align: center;
+}
+@media (max-width: 775px) {
+    .intro.box {
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .intro.box h1 {
+        margin-top: 20px;
+        margin-bottom: 100px;
+    }
+    .col-md-4 p {
+        margin-top: 60px;
+    }
+    .info {
+        margin-top: 50px;
+    }
+}
+@media (max-width: 576px) {
+    h4 {
+        padding-bottom: 50px;
+    }
 }

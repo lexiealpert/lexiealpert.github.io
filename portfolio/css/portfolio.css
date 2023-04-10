@@ -120,13 +120,6 @@ h2 {
     }
 }
 
-@media (max-width: 576px) {
-    .container-fluid {
-        margin: 0;
-        padding: 0;
-        padding-left: ;
-    }
-
 
     .clips,
     .resume,
