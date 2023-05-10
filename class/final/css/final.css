@@ -1,0 +1,44 @@
+header {
+    color: #64a9df;
+    text-align: center;
+}
+
+body {
+    background-color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: #64a9df;
+    margin-top: 130px;
+}
+
+h2 {
+    text-align: center;
+    color: #64a9df;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-size: 1.2em;
+}
+
+.row {
+    margin-bottom: 40px;
+}
+
+main {
+    padding: 20px 220px;
+}
+
+/* my arch enemy that keeps shutting down my computer 
+@media(max-width:576px) {
+body {
+    font-size: 16px;
+    padding:0;
+    }
+
+.row {
+    padding:0;
+    }
+}
+/*
